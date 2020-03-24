@@ -1,12 +1,12 @@
 'use strict'
 
 const countProps = function(obj) {
-    let b = 0;
+    let count = 0;
     const array = Object.keys(obj);
     for ( let element of array) {
-        b = b + 1;
+        count = count + 1;
     }
-    return b;
+    return count;
   };
   
   /*
